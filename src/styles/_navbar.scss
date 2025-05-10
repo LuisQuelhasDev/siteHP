@@ -1,0 +1,53 @@
+.navbar{
+    padding: 60px 90px;
+
+    &__content{
+        display: none;
+        align-items: center;
+        justify-content: space-around;
+        
+        &__img{
+        max-height: 540px;
+        border-radius: 10px;
+    }
+
+        &--active{
+            display: flex;
+        }
+    }
+
+      &__options{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+        
+        &__item{
+            margin-left: 90px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+    &__text{
+        max-width: 400px;
+        text-align: justify;
+    }
+
+    &__text::first-letter{
+        font-size: 40px;
+    }
+
+    &__vLine{
+        background-color: silver;
+        width: 2px;
+        height: 480px;
+        border-radius: 4px;
+    }
+
+    &__img{
+        max-height: 200px;
+        border-radius: 3px;
+    }
+    
+}

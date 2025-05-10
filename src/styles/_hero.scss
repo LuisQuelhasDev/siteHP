@@ -1,4 +1,14 @@
 .hero{
-    padding: 50px;
-    background-image: url(../images/wallpaper.jpeg);
+    padding: 90px 90px;
+
+    &__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    img{
+        max-width: 720px;
+        border-radius: 10px;
+    }
 }

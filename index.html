@@ -8,11 +8,40 @@
 </head>
 <body>
     <section class="hero">
-        <h1 class="text--title">Harry Potter e o Cálice de Fogo</h1>
-        
+        <div class="hero__content">
+            <h1 class="text--title">Harry Potter e o Cálice de Fogo</h1>
+            <img src="./dist/images/wallpaper.jpeg" alt="Wallpaper">
+        </div>
     </section>
-    <section>
-
+    <section class="navbar">
+        <nav class="navbar__options">
+            <button data-tab-button="sinopse" class="navbar__options__item text--subTitle">
+                    Sinopse
+            </button>
+            <button data-tab-button="saga" class="navbar__options__item text--subTitle">
+                    Saga Completa
+            </button>
+        </nav>
+        <div data-tab-id="sinopse" class="navbar__content navbar__content--active ">
+            <p class="text navbar__text">
+                Harry retorna para seu quarto ano na Escola de Magia e Bruxaria de Hogwarts, junto com os seus amigos Ron e Hermione. Desta vez, acontece um torneio entre as três maiores escola de magia, com um participante selecionado de cada escola, pelo Cálice de Fogo. O nome de Harry aparece, mesmo não tendo se inscrito, e ele precisa competir.
+            </p>
+            <div class="navbar__vLine"></div>
+            <img class="navbar__content__img" src="./dist/images/calice.jpg" alt="Cálice de Fogo">
+        </div>
+        <div data-tab-id="saga" class="navbar__content">
+            <img class="navbar__img" src="./dist/images/movies/film01.jpg" alt="Filme 1">
+            <img class="navbar__img" src="./dist/images/movies/film02.jpg" alt="Filme 2">
+            <img class="navbar__img" src="./dist/images/movies/film03.jpg" alt="Filme 3">
+            <img class="navbar__img" src="./dist/images/movies/film04.jpg" alt="Filme 4">
+            <img class="navbar__img" src="./dist/images/movies/film05.jpg" alt="Filme 5">
+            <img class="navbar__img" src="./dist/images/movies/film06.jpg" alt="Filme 6">
+            <img class="navbar__img" src="./dist/images/movies/film07.jpg" alt="Filme 7 parte 1">
+            <img class="navbar__img" src="./dist/images/movies/film07.2.jpg" alt="Filme 7 parte 2">
+        </div>
+    </section>
+    <section class="watch">
+        <h2 class="text--subTitle">Onde Assistir</h2>
     </section>
 </body>
 </html>
