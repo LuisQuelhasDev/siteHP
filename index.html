@@ -4,18 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
     <title>Harry Potter</title>
 </head>
 <body>
+    <header class="header">
+        <img src="./dist/images/HP_logo.png" alt="Logo Harry Potter">
+    </header>
     <section class="hero">
         <div class="hero__content">
-            <h1 class="text--title">Harry Potter e o Cálice de Fogo</h1>
+            <h1 class="text--title hero__content__title">Harry Potter e o Cálice de Fogo</h1>
             <img src="./dist/images/wallpaper.jpeg" alt="Wallpaper">
         </div>
     </section>
     <section class="navbar">
         <nav class="navbar__options">
-            <button data-tab-button="sinopse" class="navbar__options__item text--subTitle">
+            <button data-tab-button="sinopse" class="navbar__options__item navbar__options__item--active text--subTitle">
                     Sinopse
             </button>
             <button data-tab-button="saga" class="navbar__options__item text--subTitle">
@@ -41,7 +47,33 @@
         </div>
     </section>
     <section class="watch">
-        <h2 class="text--subTitle">Onde Assistir</h2>
+        <h2 class="text--title">Onde Assistir</h2>
+        <div class="watch__max">
+            <img  src="./dist/images/max-logo.png" alt="Max logo">
+        </div>
+        <ul class="watch__devices">
+            <li class="watch__devices__options">
+                <img src="./dist/images/dispositivos/celular.png" alt="Celular">
+                <p class="text">Android<br>Iphone</p>
+            </li>
+            <li class="watch__devices__options">
+                <img src="./dist/images/dispositivos/computador.png" alt="Computador">
+                <p class="text">Windows PC<br> Mac OS <br> Chrome OS</p>
+            </li>
+            <li class="watch__devices__options">
+                <img src="./dist/images/dispositivos/tv.png" alt="Tv">
+                <p class="text">Android TV <br> Apple TV <br> Samsung <br> Chromecast</p>
+            </li>
+            <li class="watch__devices__options">
+                <img src="./dist/images/dispositivos/videogames.png" alt="VideoGame">
+                <p class="text">Xbox One <br> Xbos Series X|S <br> PS4 <br> PS5</p>
+            </li>
+        </ul>
     </section>
+    <section class="footer">
+        <i><p class="text">Projeto criado para o curso da EBAC</p></i>
+        <i><p class="text">Feito por: Luis Filipe da Silva Quelhas</p></i>
+    </section>
+    <script src="./src/main.js"></script>
 </body>
 </html>

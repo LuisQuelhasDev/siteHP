@@ -1,6 +1,10 @@
 @use "variaveis";
 @use "hero";
 @use "navbar";
+@use "watch";
+@use "footer";
+@use "header";
+
 *{
     margin: 0;
     padding: 0;
@@ -12,18 +16,22 @@ body{
 }
 
 .text--title{
-    font-size: 38px;
+    font-size: 48px;
+    line-height: 58px;
     color: variaveis.$corTitle;
+    font-family: "Pirata One";
 }
 
 .text--subTitle{
     font-size: 28px;
     color: variaveis.$corText;
+    font-family: "Pirata One";
 }
 
 .text{
     font-size: 22px;
     line-height: 32px;
     color: variaveis.$corText;
+    font-family: "Pirata One";
 }
 

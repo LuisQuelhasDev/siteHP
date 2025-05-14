@@ -1,0 +1,27 @@
+.footer{
+    padding: 20px 90px 10px;
+    background-color: black;
+
+    @media (max-width:1023px) {
+        padding: 30px;
+    }
+
+    @media (max-width:768px) {
+        padding: 20px;
+    }
+
+    p{
+        text-align: center;
+        font-size: 12px;
+        font-family: sans-serif;
+
+        @media (max-width:1023px) {
+            font-size: 20px;
+        }
+
+        @media (max-width:768px) {
+            font-size: 14px;
+        }
+    }
+
+}

@@ -1,0 +1,16 @@
+.header{
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+
+    img{
+        max-width: 200px;
+
+        @media (min-width:769px) and (max-width:1023px) {
+            max-width: 300px;
+        }
+    }
+}
